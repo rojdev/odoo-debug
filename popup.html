@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">Odoo <span>Debug</span></div>
+    <div class="header-right">
+      <label class="switch">
+        <input type="checkbox" id="globalPause">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="main-card">
+    <select id="mode" class="modern-select">
+      <option value="1">Modo Debug (1)</option>
+      <option value="assets">Debug Assets</option>
+    </select>
+    <button id="addCurrent" class="btn-primary">Añadir dominio actual</button>
+  </div>
+
+  <div class="extra-settings">
+    <div class="setting-item">
+      <span>Activación rápida (1-2 clics)</span>
+      <label class="switch sm">
+        <input type="checkbox" id="quickActive">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div class="setting-item">
+      <span>Auto-añadir dominios</span>
+      <label class="switch sm">
+        <input type="checkbox" id="autoAdd">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </div>
+
+  <button id="toggleList" class="btn-toggle-list">Ver dominios guardados ▼</button>
+  
+  <div id="domainListContainer" class="list-container hidden">
+    <div id="domainList"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

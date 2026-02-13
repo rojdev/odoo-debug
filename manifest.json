@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Odoo Debug Pro",
+  "version": "0.1",
+  "permissions": ["storage", "tabs", "activeTab", "contextMenus"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": false
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
