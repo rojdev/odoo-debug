@@ -2,11 +2,11 @@
 
 ### English Description
 
-**Odoo Debug Pro+** is a powerful browser extension (Manifest V3) designed to streamline the Odoo development workflow. It automatically injects debug parameters (`?debug=1` or `?debug=assets`) into your URLs based on a configurable multi-domain list. Featuring a dynamic status icon, quick-click activation, and a sleek dark/light mode interface, it eliminates the need for manual URL editing across multiple environments.
+**Odoo Debug Pro** is a powerful browser extension (Manifest V3) designed to streamline the Odoo development workflow. It automatically injects debug parameters (`?debug=1` or `?debug=assets`) into your URLs based on a configurable multi-domain list. Featuring a dynamic status icon, quick-click activation, and a sleek dark/light mode interface, it eliminates the need for manual URL editing across multiple environments.
 
 ### Descripción en Español
 
-**Odoo Debug Pro+** es una potente extensión de navegador (Manifest V3) diseñada para optimizar el flujo de trabajo en el desarrollo de Odoo. Inyecta automáticamente parámetros de depuración (`?debug=1` o `?debug=assets`) en tus URLs basándose en una lista de múltiples dominios configurables. Con un icono de estado dinámico, activación por clics rápidos y una interfaz elegante con soporte para modo claro/oscuro, elimina la necesidad de editar URLs manualmente en múltiples entornos.
+**Odoo Debug Pro** es una potente extensión de navegador (Manifest V3) diseñada para optimizar el flujo de trabajo en el desarrollo de Odoo. Inyecta automáticamente parámetros de depuración (`?debug=1` o `?debug=assets`) en tus URLs basándose en una lista de múltiples dominios configurables. Con un icono de estado dinámico, activación por clics rápidos y una interfaz elegante con soporte para modo claro/oscuro, elimina la necesidad de editar URLs manualmente en múltiples entornos.
 
 ---
 
